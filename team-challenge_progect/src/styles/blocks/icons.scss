@@ -1,0 +1,30 @@
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+
+  @include onTablet {
+    width: 32px;
+    height: 32px;
+  }
+
+  &--close {
+    background-image: url("../../images/icons/icon-close.svg");
+    @include icon-position;
+  }
+
+  &--phone {
+    background-image: url("../../images/icons/icon-phone.svg");
+    @include icon-position;
+  }
+
+  &--menu {
+    background-image: url("../../images/icons/icon-burger-menu.svg");
+    transition: all $duration;
+    @include icon-position;
+
+    &:hover {
+      background-image: url("../../images/icons/icon-burger-menu-hover.svg");
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../utils/variables.scss";
+@import "../../utils/mixins.scss";
+
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  @include block-paddings;
+
+  font-weight: 700;
+  color: #fff;
+  background-color: #a98ade;
+  text-transform: uppercase;
+
+  overflow-y: scroll;
+}

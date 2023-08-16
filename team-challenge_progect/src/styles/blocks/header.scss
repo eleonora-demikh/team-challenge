@@ -1,0 +1,32 @@
+@import "../../utils/variables.scss";
+@import "../../utils/mixins.scss";
+
+.header {
+  height: 100vh;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  @include block-paddings;
+
+  // @include onTablet {
+  //   background-image: url("../../images/header/header-bg.png");
+  // }
+
+  &__content {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  &__icons {
+    position: relative;
+    display: flex;
+    gap: 24px;
+
+    @include onTablet {
+      gap: 50px;
+    }
+  }
+}
