@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/team-challenge/static/css/main.c87802a5.css",
+    "main.js": "/team-challenge/static/js/main.e2a16a07.js",
+    "static/js/787.8714564d.chunk.js": "/team-challenge/static/js/787.8714564d.chunk.js",
+    "static/media/something.jpeg": "/team-challenge/static/media/something.594cb951dd02e551d01b.jpeg",
+    "static/media/some2.jpeg": "/team-challenge/static/media/some2.d4aefdc9d8746fde785d.jpeg",
+    "static/media/baby-land_logo.svg": "/team-challenge/static/media/baby-land_logo.0aa2a2d088a30fb010807517d90504c7.svg",
+    "static/media/icon-close.svg": "/team-challenge/static/media/icon-close.7950d3b666b90006291c.svg",
+    "static/media/icon-burger-menu-hover.svg": "/team-challenge/static/media/icon-burger-menu-hover.0127184217a7af0f81fe.svg",
+    "static/media/icon-burger-menu.svg": "/team-challenge/static/media/icon-burger-menu.7b6e6d490b1ebe9d30e0.svg",
+    "static/media/icon-phone.svg": "/team-challenge/static/media/icon-phone.a8149b736acdec79a4fc.svg",
+    "index.html": "/team-challenge/index.html",
+    "main.c87802a5.css.map": "/team-challenge/static/css/main.c87802a5.css.map",
+    "main.e2a16a07.js.map": "/team-challenge/static/js/main.e2a16a07.js.map",
+    "787.8714564d.chunk.js.map": "/team-challenge/static/js/787.8714564d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c87802a5.css",
+    "static/js/main.e2a16a07.js"
+  ]
+}
