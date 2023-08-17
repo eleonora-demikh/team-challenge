@@ -1,6 +1,6 @@
-import { Button } from '@material-ui/core';
 import './TopBar.scss';
 import myLogo from "../../images/baby-land_logo.svg";
+import { Button } from '@mui/material';
 
 export const TopBar: React.FC = () => {
   return (

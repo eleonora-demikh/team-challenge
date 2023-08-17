@@ -1,12 +1,13 @@
-import { Box, ButtonBase, Typography, styled } from '@material-ui/core';
+
 import imageUrl from '../images/something.jpeg';
 import image2 from '../images/some2.jpeg';
+import { Box, ButtonBase, Typography, styled } from '@mui/material';
 
 const images = [
   {
     url: imageUrl,
     title: "Item1",
-    width: "50%",
+    width: "25%",
   },
   {
     url: image2,
@@ -97,6 +98,12 @@ export default function MainPageItem() {
               component='span'
               variant='subtitle1'
               color='inherit'
+              sx={{
+                position: "relative",
+                p: 4,
+                pt: 2,
+                pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+              }}
             >
               {image.title}
             </Typography>
